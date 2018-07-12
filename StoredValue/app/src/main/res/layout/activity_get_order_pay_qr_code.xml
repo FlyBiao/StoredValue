@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_order_pos"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary" >
+
+        <LinearLayout
+            android:id="@+id/ll_order_qrcode_pay_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/icon_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="返回"
+                android:textSize="@dimen/font_20"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_order_pay_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="支付二维码"
+            android:textSize="@dimen/font_20"
+            android:textColor="@color/white"/>
+
+        <!--<TextView
+            android:id="@+id/tv_refund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:text="退款"
+            android:textSize="@dimen/font_26"
+            android:textColor="@color/white"
+            />-->
+    </RelativeLayout>
+
+    <EditText android:layout_width="match_parent" android:layout_height="50dp"
+              android:textColor="#000000"
+              android:textSize="@dimen/font_20"
+              android:focusable="false"
+              android:id="@+id/ed_order_qrcode_show_msg"
+              android:background="@null"
+              android:gravity="center"
+              android:focusableInTouchMode="false"/>
+
+    <ImageView
+        android:id="@+id/iv_order_pay_code_img"
+        android:layout_width="@dimen/size_230"
+        android:layout_height="@dimen/size_230"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:gravity="center"
+        android:textSize="@dimen/font_18"
+        android:text="请扫描上方二维码付款"/>
+
+    <TextView
+        android:id="@+id/tv_pay_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:gravity="center"
+        android:textSize="@dimen/font_22"
+        android:textColor="@color/red_btn_bg_pressed_color"
+        android:text="￥100"/>
+
+</LinearLayout>

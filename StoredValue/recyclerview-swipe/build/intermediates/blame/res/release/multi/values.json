@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "E:\\Workspace\\sw_project\\POS\\StoredValue\\recyclerview-swipe\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endColumn": 74,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "C:\\Users\\ThinkPad\\.android\\build-cache\\9bc0b74186ecf2f0254bf0f1cf05546513f66475\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endColumn": 75,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "C:\\Users\\ThinkPad\\.android\\build-cache\\9bc0b74186ecf2f0254bf0f1cf05546513f66475\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 726,
+                    "endColumn": 71,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "C:\\Users\\ThinkPad\\.android\\build-cache\\9bc0b74186ecf2f0254bf0f1cf05546513f66475\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 65,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "C:\\Users\\ThinkPad\\.android\\build-cache\\9bc0b74186ecf2f0254bf0f1cf05546513f66475\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            }
+        ]
+    }
+]

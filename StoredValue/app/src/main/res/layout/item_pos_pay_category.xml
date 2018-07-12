@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_single_weixin_pay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_90"
+        android:layout_marginRight="@dimen/size_20"
+        android:layout_marginLeft="@dimen/size_20"
+        android:layout_marginBottom="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_10"
+        android:background="@drawable/corners_bg"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_pay_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:drawableLeft="@mipmap/pos_pay"
+            android:text="微信支付"
+            android:drawablePadding="10dp"
+            android:textSize="@dimen/font_18" />
+    </LinearLayout>
+
+</LinearLayout>

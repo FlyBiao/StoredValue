@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#9932CC</color>
+    <color name="purple_pressed">#9F79EE</color>
+
+    <color name="line">#ffd3dde6</color>
+    <color name="dimgrey1">#E22F2F</color>
+    <color name="gray1">#E84A40</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="base_text_color">#2196f3</color>
+    <color name="base_content_color">#ffd5d5d5</color>
+    <color name="common_red">#ffe6644b</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#ff333333</color>
+    <color name="rgb_text_org">#FFFC8A2A</color>
+    <color name="forestgreen">#228B22</color>
+    <color name="active_color">#4caf50</color>
+    <color name="gray_text">#ffc0c0c0</color>
+    <color name="c2">#ff666666</color>
+    <color name="c3">#ff999999</color>
+    <color name="c4">#ffffffff</color>
+    <color name="c5">#ffaaaaaa</color>
+    <color name="c6">#ff888888</color>
+    <color name="rgb_f2_click">#FFF2F2F2</color>
+    <color name="color_film_list_item_press_bg">#ffececec</color>
+    <color name="transparent">#00000000</color>
+    <color name="rgb_0x000">#00000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="defalult_text_color">#999999</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#00000000</color>
+    <color name="capture_text_cover_bg">#99535353</color>
+    <color name="seek_bar_text">#fff6f6f6</color>
+    <color name="common_line">#ffc9c9c9</color>
+    <color name="c1">#ff333333</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="blue_app">#22abea</color>
+    <color name="drop_down_unselected">#ffffff</color>
+
+    <color name="base_title_color">#464a4d</color>
+    <color name="material_text_color_47">#333333</color>
+    <color name="divider_color_c7">#d3d3d3</color>
+
+    <item name="green" type="color">#FF3BBD79</item>
+    <color name="font_black_content">#222222</color>
+    <color name="stand_bg">#fff6f6f6</color>
+    <color name="divide">#ffe4e4e4</color>
+    <color name="white_pressed">#ffd5d5d5</color>
+    <color name="font_black_6">#ff666666</color>
+    <color name="font_gray">#999999</color>
+    <color name="rgb_line">#FFDCDCDC</color>
+
+    <color name="base_stored_value">#00BCD4</color>
+
+    <color name="dd">#404040</color>
+    <!--头部刷新时候的四种颜色-->
+    <color name="refresh_color_1">#FF3BBD79</color>
+    <color name="refresh_color_2">#22abea</color>
+    <color name="refresh_color_3">#ffffbb33</color>
+    <color name="refresh_color_4">#ffff4444</color>
+
+</resources>

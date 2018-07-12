@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">会员充值</string>
+
+    <string name="scan">扫描</string>
+    <string name="cashier">收银</string>
+    <string name="refund">退款</string>
+    <string name="know">知道</string>
+
+    <string name="login_input_mobile">请填写手机号</string>
+    <string name="login_input_pwd">请输入密码</string>
+    <string name="login_new_hint">请输入新密码</string>
+    <string name="login_old_hint">请输入原密码</string>
+    <string name="login_renew_hint">确认新密码</string>
+    <string name="login_login">登    录</string>
+    <string name="login_account_not_null">手机号不能为空</string>
+    <string name="login_tel_sucs">手机格式不正确</string>
+    <string name="login_pwd_not_null">密码不能为空</string>
+    <string name="login_pwd_sucs">密码长度应为4&#8211;12位</string>
+    <string name="main_empty">内容不能为空</string>
+    <string name="text_length">长度应为 %1$d-%2$d 位</string>
+    <string name="register_name_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ_-+=!%$@#</string>
+
+    <string name="request_succeed">请求成功</string>
+    <string name="request_failed">请求失败</string>
+
+
+    <!-- RequestMethod -->
+
+    <string name="request_json_result">请求方法：%1$s\n请求地址：%2$s\n响应数据：%3$s\n业务状态码：%4$s。</string>
+    <string name="request_succeed_head">请求成功, 请求方式为HEAD, 没有响应内容。</string>
+    <string name="request_method_not_allow">请求的方法被不服务器允许。</string>
+    <string name="request_method_head">请求方法为HEAD，没有响应内容。</string>
+
+    <!-- error -->
+    <string name="error_please_check_network">请检查网络。</string>
+    <string name="error_timeout">请求超时，网络不好或者服务器不稳定。</string>
+    <string name="error_not_found_server">未发现指定服务器，清切换网络后重试。</string>
+    <string name="error_url_error">URL错误。</string>
+    <string name="error_not_found_cache">没有找到缓存.</string>
+    <string name="error_system_unsupport_method">系统不支持的请求方法。</string>
+    <string name="error_parse_data_error">解析数据时发生错误。</string>
+    <string name="error_unknow">位置错误。</string>
+    <string name="error_response_code">服务器响应码%1$d</string>
+    <string name="error_response_code_dex">服务器响应码%1$d，如果你们服务器在这种情况下也返回数据你可以处理。</string>
+
+
+    <string name="placeHolder">placeHolder</string>
+    <string name="seekbar_add">+</string>
+    <string name="seekbar_minus">-</string>
+    <string name="create">生成</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="cancel">取消</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+
+    <string name="network_err">network error</string>
+</resources>
